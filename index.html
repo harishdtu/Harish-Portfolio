@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish Vasamsetti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(19, 19, 89);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(63, 63, 192);
+            font-size: 1.1rem;
+        }
+        main hr{
+            border:0;
+            background: rgb(122, 87, 155);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+        .leftsection .buttons{
+            padding: 50px 0;
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background:#1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 7px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightsection img {
+            width: 110%;
+            margin: 50px 0;
+
+        }
+
+        .purple {
+            color: rgb(158, 84, 228);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color: rgb(127, 71, 179);
+        }
+        footer{
+            background-color: #0e0e1a;
+            
+
+        }
+        .footer{
+           display: flex; 
+           padding: 23px 122px;
+           justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+
+        }
+        .footer >div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        .btn a:hover{
+            color: rgb(63, 63, 192);
+            
+        }
+        .btn a{
+            text-decoration: none;
+            color: white;
+        }
+        @media screen and (max-width:800px) {
+            footer{
+                display:none;
+            }
+            .firstsection{
+                flex-direction: column-reverse;
+            }
+            nav{
+                flex-direction: column;
+            }
+            .leftsection{
+                width: 100% !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .rightsection{
+                width: 72% !important;  
+                display: flex; 
+                justify-content: center;
+            }
+            .rightsection img{
+                width: 45vw;
+                margin-bottom: 73px;
+            }
+         }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Harish's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/home.html">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div>Hi, My name is <span class="purple">Harish Vasamsetti</span></div>
+                <div>and I am a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    
+                    <button class="btn"><a href="file:///C:/Users/haris/Downloads/RESUME%20OF%20HARISH.pdf" target="_blank">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/harishdtu"  target="_blank">Visit Github</a></button>
+                    
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Harish's Developer</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>  
+                    <li>About</li>  
+                    <li>Services</li>  
+                    <li>Contact Me</li>    
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>  
+                    <li>About</li>  
+                    <li>Services</li>  
+                    <li>Contact Me</li>    
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>  
+                    <li>About</li>  
+                    <li>Services</li>  
+                    <li>Contact Me</li>    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyrights&#169; harishvasamsettisportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer','Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
